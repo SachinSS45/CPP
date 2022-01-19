@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+void sum(int x,int y) {
+	
+	printf("%d",x+y);
+}
+void sum(int x,int y,int z) {
+
+        printf("%d",x+y+z);
+}
+
+void main(){
+        
+	sum(10,20);
+	sum(10,20,30);
+}
+	
+	
+
+
